@@ -2,9 +2,12 @@ server:
   port: 8080
 
 eureka:
+  instance:
+    hostname: https://ads-user-service.int.paas.dev.redhat.com
   client:
     serviceUrl:
-      defaultZone: https://discovery-service.int.paas.redhat.com/eureka/
+      defaultZone: https://discovery-service.int.paas.dev.redhat.com/eureka/
+                  
       
 logging:
   pattern: 
