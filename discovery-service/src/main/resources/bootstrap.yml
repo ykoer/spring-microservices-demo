@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: discovery-service
+  cloud:
+    config:
+      uri: https://config-server.int.paas.dev.redhat.com
